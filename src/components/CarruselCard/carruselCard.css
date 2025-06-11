@@ -1,0 +1,55 @@
+.tarjeta {
+  width: 300px;
+  margin: 20px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.precio {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.carrusel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.imagen-carrusel {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.flecha {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 12px;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.flecha:hover {
+  color: #000;
+}
+
+.izquierda {
+  position: absolute;
+  left: -24px;
+}
+
+.derecha {
+  position: absolute;
+  right: -24px;
+}
