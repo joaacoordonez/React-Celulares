@@ -1,8 +1,10 @@
 nav {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   gap: 30px;
-  padding: 20px 0;
+  padding: 0 40px;
+  height: 60px;
   background-color: #f9f6f5;
   border-bottom: 2px solid #ccc;
   position: fixed;
@@ -11,6 +13,14 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  box-sizing: border-box;
+}
+
+nav img {
+  height: 270px;
+  margin-right: 40px;
+  object-fit: contain;
+  margin-top: 17px;
 }
 
 nav a {
@@ -18,6 +28,8 @@ nav a {
   font-weight: bold;
   font-size: 16px;
   position: relative;
+  text-decoration: none;
+  line-height: 60px;
 }
 
 footer {
@@ -33,8 +45,6 @@ footer {
   width: 100%;
 }
 
-
 footer p {
   margin: 4px;
 }
-

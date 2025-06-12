@@ -70,7 +70,7 @@ export const celulares = [
     id: 6,
     nombre: "Motorola Edge 40",
     descripcion: "Pantalla pOLED, MediaTek Dimensity 8020, resistente al agua",
-    precio: 699,
+    precio: 69999,
     marcaId: 4,
     fotos: [
       "https://armoto.vtexassets.com/arquivos/ids/165379-1200-auto?v=638412650244170000&width=1200&height=auto&aspect=true",
