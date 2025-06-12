@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #f9f6f5;
+  border-bottom: 2px solid #ccc;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav a {
+  color: #08142c;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+}
+
+footer {
+  background-color: #08142c;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+footer p {
+  margin: 4px;
+}
+

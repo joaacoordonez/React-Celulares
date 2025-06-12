@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './carruselCard.css'
+import "./carruselCard.css";
 
 const CarruselCelular = ({ celular }) => {
   const [indiceActual, setIndiceActual] = useState(0);
@@ -18,9 +18,8 @@ const CarruselCelular = ({ celular }) => {
 
   return (
     <div className="tarjeta">
-      <h3>{celular.nombre}</h3>
-      <p>{celular.descripcion}</p>
-      <p className="precio">${celular.precio}</p>
+      <h3 className="nombre">{celular.nombre}</h3>
+      <p className="desc">{celular.descripcion}</p>
       <div className="carrusel">
         <button className="flecha izquierda" onClick={mostrarAnterior}>
           &lt;
@@ -34,10 +33,9 @@ const CarruselCelular = ({ celular }) => {
           &gt;
         </button>
       </div>
+      <p className="precio">${celular.precio}</p>
     </div>
   );
 };
 
 export default CarruselCelular;
-
-
